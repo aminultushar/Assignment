@@ -1,0 +1,120 @@
+Answer 1:
+HTTP: Hypertext transfer protocol.Its a protocol for Communicate or transfer data
+between two systems.
+HTTPS: Hypertext transfer protocol secure. It is a protocol for securing
+communication between two systems. It is the secure version of HTTP.
+
+
+Answer 2:
+RFC (stands for Request For Comments) is a document that describes the
+standards, protocols, and technologies of the Internet and TCP/IP. Requests for
+Comments are produced in a non-reflowable document format, but work has begun
+to change the format to a reflowable one so that documents can be viewed in
+devices with restricted size.
+
+
+Answer 3:
+CSS stands for Cascading Style Sheets. I hope CSS required Some Standard
+because using CSS we can make a web page more interactive and more
+lightweight. If we do not apply a standard form of CSS on the web page then the
+webpage does not show much better. Some standard rules also apply for CSS, In
+nows day many new functionalities also added in CSS.So I hope that CSS also
+required some Standard.
+
+
+Answer 4:
+JavaScript is an essential a programming language. Nowadays we can make any
+web application and also any mobile application using JavaScript.There are many
+Frameworks or tools to use JavaScript in separate platforms. In early times
+JavaScript is used for only front end development on the web but nowadays it used
+every platform. Now we can make backend service buy node JS which is a tool of
+JavaScript.We can use react JS, Angular JS for frontend development. we use node
+JS or deno Framework For backend or server-side development.we can also used
+react-native which is another JavaScript framework for Cross-site mobile app
+development Both Android and IOS. we can also make any desktop application by
+JavaScript. The main purpose of using JavaScript in web application development
+.we can not make any web application more functionality without using
+JavaScript.For web applications, we can use a jQuery library in the frontend but
+now the more popular Framework is react JS which developed by Facebook.
+nowadays we can use JavaScript in every platform We can also make our
+programing code smaller using the es6 version of JavaScript. we can also solve
+many big problems by JavaScript so, In the end, we can see that JavaScript is
+everywhere and we can use JavaScript for every platform.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css" />
+<title>Layout</title>
+</head>
+<body>
+<div style="margin-bottom: 20px;">
+Logo
+</div>
+<div class="topnav">
+<a href="#">Link</a>
+<a href="#">Link</a>
+<a href="#">Link</a>
+</div>
+<div class="header">
+<h1>Header</h1>
+</div>
+<div class="row">
+<div class="column submenu">
+<h2>Submenu</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+</div>
+<div class="column content">
+<h2>Content</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium
+urna. Vivamus venenati
+convallis.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium
+urna. Vivamus venenatis convallis.</p>
+</div>
+</div>
+</body>
+</html>
+style.css:
+body{
+background-color: darkgray;
+width: 1000px;
+}
+.logo{
+height: 10px;
+width: 10px;
+}
+.header {
+background-color: #f1f1f1;
+padding: 20px;
+text-align: center;
+}
+.topnav {
+overflow: hidden;
+background-color: #333;
+}
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+.column {
+float: left;
+padding: 10px;
+}
+.column.submenu {
+width: 20%;
+}
+.column.content {
+width: 75%;
+}
